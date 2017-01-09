@@ -1,0 +1,9 @@
+{
+  "description": "front-end side of quest app",
+  "version": "1.0.0",
+  "author": "dva1986",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.8.0"
+  }
+}
