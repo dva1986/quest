@@ -1,12 +1,15 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    HELLO WORLDS!
+    <div id="content">
+        <!-- Dynamically content here! -->
+    </div>
 {% endblock %}
 
 
 {% block javascripts %}
-    <script src="{{ asset('js/bower_components/react/react.min.js') }}"></script>
-    <script src="{{ asset('js/bower_components/react/react-dom.min.js') }}"></script>
-    <script src="{{ asset('bundles/admin/scripts/js/app.js') }}"></script>
+    <script src="{{ asset('js/bower_components/react/react.js') }}"></script>
+    <script src="{{ asset('js/bower_components/react/react-dom.js') }}"></script>
+    <script src="{{ asset('js/bower_components/babel/browser.min.js') }}"></script>
+    <script type="text/babel" src="{{ asset('bundles/admin/scripts/js/app.js') }}"></script>
 {% endblock %}
